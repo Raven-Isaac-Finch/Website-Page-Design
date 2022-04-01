@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+.logo-images {
+    width: 10%;
+    min-width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
