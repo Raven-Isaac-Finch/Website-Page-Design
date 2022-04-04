@@ -345,4 +345,24 @@ footer p {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
+    #services-main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #serv-container-one {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #serv-container-two {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    #serv-container-three {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    #get-a-quote {
+        grid-column: 1 / 2;
+        grid-row: 4 / 6;
+    }
 }
