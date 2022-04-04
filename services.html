@@ -22,40 +22,40 @@
     <div id="subs-container">
         <h2>Subscribe To Our Newsletter</h2>
         <input type="search" name="subscribe-bar" id="subscribe-bar" placeholder="Enter Your E-mail">
-        <input type="button" id="subs-btn" value="Subscribe">
+        <input type="button" class="subs-btn" value="Subscribe">
     </div>
-    <h2>Services</h2>
-    <main>
-        <div>
+    <h2 id="services-title">Services</h2>
+    <main id="services-main">
+        <div id="serv-container-one">
             <h2>Website Design</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
             <br>
             <p>Pricing: $1,000 - $3,000</p>
         </div>
-        <div>
+        <div id="serv-container-two">
             <h2>Website Maintenance</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
             <br>
             <p>Pricing: $250 per month</p>
         </div>
-        <div>
+        <div id="serv-container-three">
             <h2>Website Hosting</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
             <br>
             <p>Pricing: $25 per month</p>
         </div>
-        <div>
+        <div id="get-a-quote">
             <h3>Get A Quote</h3>
             <label for="name-bar">Name</label> <br>
-            <input type="search" name="name" id="name-bar" value="Name">
+            <input type="search" name="name" id="name-bar" placeholder="Name"> <br>
 
             <label for="e-mail-bar">E-mail</label> <br>
-            <input type="search" name="e-mail" id="e-mail-bar" value="E-mail Address">
+            <input type="search" name="e-mail" id="e-mail-bar" placeholder="E-mail Address"> <br>
             
-            <label for="message-area">Message</label> <br>
-            <input type="text" name="message" id="message-area" value="Message">
+            <label for="msg-area">Message</label> <br>
+            <textarea name="msg-area" id="msg-box" cols="40" rows="3" style="resize: none;"></textarea> <br>
 
-            <input type="button" value="Send">
+            <input type="button" id="quote-btn" value="Send">
         </div>
     </main>
 </body>
